@@ -3,7 +3,8 @@
   "name": "Color Selector",
   "srcdoc": "./build/index.html",
   "fieldTypes": [
-    "Symbol"
+    "Symbol",
+    "Text"
   ],
   "parameters": {
     "installation": [
