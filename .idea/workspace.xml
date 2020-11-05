@@ -25,7 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1b5c36d-9db8-4de9-a0de-19de2f20a176" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/extension.json" beforeDir="false" afterPath="$PROJECT_DIR$/extension.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <list id="9e487e1b-30b2-4ed4-8397-387310db61c0" name="Revert &quot;Adding install instructions&quot;" comment="Revert &quot;Adding install instructions&quot;&#10;&#10;This reverts commit 71c9c0ea" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +76,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="help" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -97,9 +108,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.configure" />
         <item itemvalue="npm.help" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -113,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604603779346</updated>
       <workItem from="1604603780800" duration="514000" />
-      <workItem from="1604604301753" duration="325000" />
+      <workItem from="1604604301753" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuild">
       <created>1604603944093</created>
@@ -136,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604604346305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Customizing">
+      <created>1604604682871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604604682871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,29 +179,30 @@
     <MESSAGE value="Rebuild" />
     <MESSAGE value="Try changing ID" />
     <MESSAGE value="REvert" />
-    <option name="LAST_COMMIT_MESSAGE" value="REvert" />
+    <MESSAGE value="Customizing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customizing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1527" y="86" key="CommitChangelistDialog2" timestamp="1604604413072">
+    <state x="1527" y="86" key="CommitChangelistDialog2" timestamp="1604604682763">
       <screen x="0" y="23" width="2560" height="976" />
     </state>
-    <state x="1527" y="86" key="CommitChangelistDialog2/0.23.2560.976@0.23.2560.976" timestamp="1604604413072" />
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1604604587415">
+    <state x="1527" y="86" key="CommitChangelistDialog2/0.23.2560.976@0.23.2560.976" timestamp="1604604682763" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1604604703387">
       <screen x="0" y="23" width="2560" height="976" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.2560.976@0.23.2560.976" timestamp="1604604587415" />
-    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1604604587414">
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.2560.976@0.23.2560.976" timestamp="1604604703387" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1604604703386">
       <screen x="0" y="23" width="2560" height="976" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.2560.976@0.23.2560.976" timestamp="1604604587414" />
-    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1604604587414">
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.2560.976@0.23.2560.976" timestamp="1604604703386" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1604604703386">
       <screen x="0" y="23" width="2560" height="976" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.2560.976@0.23.2560.976" timestamp="1604604587414" />
-    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1604604587414">
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.2560.976@0.23.2560.976" timestamp="1604604703386" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1604604703387">
       <screen x="0" y="23" width="2560" height="976" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.2560.976@0.23.2560.976" timestamp="1604604587414" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.2560.976@0.23.2560.976" timestamp="1604604703387" />
     <state x="1520" y="251" key="Vcs.Push.Dialog.v2" timestamp="1604604392500">
       <screen x="0" y="23" width="2560" height="976" />
     </state>
