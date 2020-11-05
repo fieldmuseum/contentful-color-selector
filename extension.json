@@ -1,5 +1,5 @@
 {
-  "id": "contentful-color-selector",
+  "id": "tfm-contentful-color-selector",
   "name": "Color Selector",
   "srcdoc": "./build/index.html",
   "fieldTypes": [
